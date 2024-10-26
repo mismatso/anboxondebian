@@ -1,6 +1,8 @@
-# Anbox on Debian
+# **Anbox on Debian 11 «Bullseye»**
 
-## Install Anbox
+This guide applies only to Debian 11 (codename "bullseye"). In Debian 12, Anbox has been removed from the official repositories. To install Anbox on Debian 12, it is recommended to use Snap.
+
+## **Install Anbox**
 
 Retrieve Anbox from Debian repositories.
 
@@ -42,7 +44,7 @@ Then launch Anbox using the following command.
 
     anbox launch --package=org.anbox.appmgr --component=org.anbox.appmgr.AppViewActivity
 
-## Install Apps on Anbox
+## **Install Apps on Anbox**
 
 First you need install _adb_ (Android Debug Bridge) software. 
 
@@ -59,7 +61,26 @@ Install the packed to the target device.
     adb -s emulator-5558 install grit.storytel.app_apkmirror.com.apk
 
 
+## **«Self-Promotion»**
 
+If you wish, you can visit my YouTube channel [MizaqScreencasts](https://www.youtube.com/MizaqScreencasts) and follow me on [Twitter](https://twitter.com/mismatso).
+
+## **License ![by-nc-sa](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)**
+
+This manual is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en). This means you are free to:
+
+- **Share** — copy and redistribute the material in any medium or format.
+- **Adapt** — remix, transform, and build upon the material, but **not for commercial purposes**.
+
+Under the following conditions:
+
+- **Attribution** — you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — you may not use the material for commercial purposes.
+- **ShareAlike** — if you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+---
+
+[Anbox On Debian](https://github.com/mismatso/anboxondebian) © 2022 by [Misael Matamoros](https://t.me/mismatso) is licensed under [CC BY-NC-SA 4](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
 
 
